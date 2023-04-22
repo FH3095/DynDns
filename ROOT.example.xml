@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+		<Environment name="nsd-restart"
+			value="/usr/sbin/nsd-control reload dyn.example.com" type="java.lang.String"
+			override="false" />
+		<Environment name="domains-and-passwords"
+			value="test1.dyn.example.com=123 test2.dyn.example.com=456"
+			type="java.lang.String" override="false" />
+		<Environment name="nsd-zone-file"
+			value="/etc/nsd/zones/dyn.example.com.conf" type="java.lang.String"
+			override="false" />
+</Context>
